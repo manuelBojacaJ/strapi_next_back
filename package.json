@@ -1,0 +1,33 @@
+{
+  "name": "strapi-back",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.3.6",
+    "@strapi/plugin-users-permissions": "4.3.6",
+    "@strapi/provider-upload-cloudinary": "^4.3.6",
+    "@strapi/strapi": "4.3.6",
+    "better-sqlite3": "7.4.6",
+    "slugify": "^1.6.5",
+    "strapi-plugin-slugify": "^2.2.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3cb58a71-5f29-447b-a45d-276fca4b5606"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
